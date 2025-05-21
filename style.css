@@ -2045,7 +2045,7 @@ gap:10px;
 
 body[data-path^="/central-aprendizagem"]{
 & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.\!text-label-md.px-5.py-3.whitespace-nowrap.text-content-on-background-subdued.hover\:text-content-on-background-hovered{
-background-color:black;
+background-color:#7E8DA6;
 color:#f1f1f4
 }
 
