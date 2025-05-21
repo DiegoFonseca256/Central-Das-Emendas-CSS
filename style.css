@@ -2043,14 +2043,101 @@ gap:10px;
 
 /*--------------------------------------------------------------*/
 
+body[data-path^="/central-aprendizagem"]{
+& .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.\!text-label-md.px-5.py-3.whitespace-nowrap.text-content-on-background-subdued.hover\:text-content-on-background-hovered{
+background-color:#7E8DA6;
+color:#f1f1f4
+}
+
+& h2{
+font-family: 'Gilroy', sans-serif;
+font-weight:1600;
+}
+
+& .font-medium.text-heading-sm.text-content.line-clamp-3{
+color:#f1f1f4;
+font-weight: 800;
+font-size: 27px;
+padding-top:20px;
+}
+
+/* Cards */
+& .border.border-card.flex.flex-col.text-content-subdued{
+
+
+& .text-content.text-sm.flex.items-center{
+color:#f1f1f4;
+}
+
+
+/* Cards Titulos */
+& h2, h1{
+color: #f1f1f4;
+font-weight:800;
+}
+
+/* Cards Tipo de Conteudo */
+& .text-content.text-sm.mt-0.min-w-0.break-words.empty\:hidden{
+color: #f1f1f4;
+}
+
+/* Tag Artigo Academico */
+& .badge[style*="background-color: rgb(6, 89, 134); color: rgb(255, 255, 255);"]{
+background-color:#646a75 !important;
+color:#f1f1f4 !important;
+}
+
+/* Tag Estudos */
+& .badge[style*="background-color: rgb(0, 109, 65); color: rgb(255, 255, 255);"]{
+background-color:#034873 !important;
+color:#f1f1f4 !important;
+}
+
+/* Tag Analise Autoral */
+& .badge[style*="background-color: rgb(175, 41, 78); color: rgb(255, 255, 255);"]{
+background-color:#7A1FA2 !important;
+color:#f1f1f4 !important;
+}
+
+/*Tags Regulamentacao*/
+& .badge[style*="background-color: rgb(174, 43, 76); color: rgb(255, 255, 255);"]{
+background-color:#C27FCF !important;
+color:#f1f1f4 !important;
+}
+/*Tags Midia*/
+& .badge[style*="background-color: rgb(255, 201, 107); color: rgb(0, 0, 0);"]{
+background-color:#646a75 !important;
+color:#f1f1f4 !important;
+}
+
+}
+
+/*Sessao Analise*/
+
+/*Botoes Tipo de Conteudo*/
+& .mt-3{
+
+/*Botao 1*/
+& .flex.space-x-2.p-1 button:nth-child(1){
+background-color:#646a75;
+color:#f1f1f4;
+}
+
+/*Botao 2*/
+& .flex.space-x-2.p-1 button:nth-child(2){
+background-color:#034873;
+color:#f1f1f4;
+}
+
+/*Botao 3*/
+& .flex.space-x-2.p-1 button:nth-child(3){
+background-color:#7A1FA2;
+color:#f1f1f4;
+}
+
+}
 
 
 
-
-/*--------------------------------------------------------------*/
-
-
-</style>
-
-
+}
 
