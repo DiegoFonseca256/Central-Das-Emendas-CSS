@@ -2083,7 +2083,7 @@ color: #f1f1f4;
 
 /* Tag Artigo Academico */
 & .badge[style*="background-color: rgb(6, 89, 134); color: rgb(255, 255, 255);"]{
-background-color:#646a75 !important;
+background-color:black !important;
 color:#f1f1f4 !important;
 }
 
