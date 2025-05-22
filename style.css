@@ -239,7 +239,7 @@ color:#f1f1f4 !important;
 
 /*Botao 1*/
 & .flex.space-x-2.p-1 button:nth-child(1){
-background-color:black;
+background-color:#646a75;
 color:#f1f1f4;
 }
 
