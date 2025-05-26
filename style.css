@@ -1361,60 +1361,57 @@ body[data-path*="/post"] {
 
 body[data-path*="/post"][data-color-scheme-mode="light"] {
 
-  & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.truncate.font-medium.text-content.shrink-0.max-w-full.focus-visible\:z-10 {
-    color: #f1f1f4;
-  }
-
-
+  /* Sessão de Comentários */
   & .flex.flex-col.gap-y-2 {
 
+    /* Card de Comentário */
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
       background-color: #034873;
 
+      /* Sessão de Enviar Comentário */
       & .flex.flex-col.bg-surface.flex-grow.max-w-full.min-w-0 {
         background-color: transparent;
 
-
+        /* Card de Enviar Comentário depois de Expandir */
         & .block.rounded-input.appearance-none.border.placeholder\:text-content-disabled.placeholder\:text-label-md.transition.duration-200.px-3.py-\[11px\].min-h-\[48px\].text-label-md.focus-within\:ring-action-primary.focus-within\:border-action-primary.bg-surface.text-content.border-line.w-full.focus\:outline-none.focus-within\:ring-1.ring-offset-0.relative.overflow-y-auto.flex.flex-col.gap-3.overflow-hidden.focus\:outline-none.focus-within\:ring {
           background-color: transparent;
           border-color: #f1f1f4;
 
-
+          /* Botão de Enviar */
           & .touch-manipulation.inline-block.rounded-button.px-3\.5.py-\[5px\].min-h-\[32px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused {
             background-color: #f1f1f4;
             color: #150F15;
           }
-
-
         }
       }
 
-
+      /* Card de Enviar Comentario antes de expandir */
       & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-3\.5.py-\[5px\].min-h-\[32px\].leading-5.text-label-sm.w-full.max-w-full.justify-start.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.mt-0.sm\:mt-1.\!font-normal.bg-surface-subdued.hover\:bg-surface-subdued-hovered.rounded-input {
         background-color: transparent;
         color: #f1f1f4;
         opacity: 0.63;
         border-color: #f1f1f4;
       }
-
     }
   }
 
+    /* Card ao clicar no botão de imagem do Enviar Comentário */
   & div[role="dialog"] {
 
+    /* Botões de escolha do card de imagem */
     & button[role="tab"] {
       color: #f1f1f4;
     }
-
+    /* Texto dentro do card de compartilhar */
     & .grow.appearance-none.focus-visible\:outline-none.bg-transparent {
       color: #150F15;
       opacity: 0.7;
     }
-
+    /* Icones do card de compartilhar */
     & svg {
       color: #034873;
     }
-
+    /* Lista  */
     & ul[role="listbox"] {
       background-color: #0C3954;
 
@@ -1656,15 +1653,9 @@ body[data-path="/teste-footer-2-97iblvyu"] {
 /*--------------------------------------------------------------*/
 body[data-path="/sobre-nos-teste"] {
 
-  /* & *{
-outline: 1px solid red;
-} */
-
   /* Centralizando o texto Banner */
   & .basis-full.text-start.items-start.justify-start.flex.items-center.gap-1.flex-wrap.font-bold {
     justify-content: center;
-
-
   }
 
   /* Titulo Central das Emendas */
@@ -1676,17 +1667,15 @@ outline: 1px solid red;
       color: #150f15;
       font-size: 35px;
     }
-
   }
 
   /* Texto Central das Emendas */
   & div[data-block-id="2HAcOoBV4M3m5FyFXEbOB"] {
+    background-color:transparent;
 
     & .flex-1.px-4.py-5.sm\:p-6 {
       padding-top: 0;
     }
-
-    background-color:transparent;
 
     & p {
       color: #150f15;
@@ -1698,9 +1687,7 @@ outline: 1px solid red;
       & strong {
         font-weight: 700;
       }
-
     }
-
   }
 
   & div[data-block-id="7y3eN7g_l9TkGTAnmAW97"] {
@@ -1716,39 +1703,27 @@ outline: 1px solid red;
       color: #150f15;
       font-size: 35px;
     }
-
-
   }
 
   /* Section Valores */
   & section[data-block-id="R6I_UywBxksXac-MQB2AE"] {
     margin-top: 0 !important;
 
-
     & .relative.rounded-base.overflow-hidden.shadow-card.screen-rounded-none.border-base.border-card.screen-border-x-0.bg-surface {
       background-color: #034873;
       border-radius: 30px;
     }
-
 
     & div {
       align-content: center;
       display: grid;
       max-height: 228px;
 
-
       & h2 {
         font-size: larger;
         text-align: center;
       }
-
     }
-
-    /* & .w-full.flex.flex-col.justify-center.relative.inset-0.z-10.text-start.items-start.text-white.px-6.\@xl\:px-16.\@5xl\:px-48.py-\[6rem\].\@3xl\:py-\[10rem\].\@5xl\:py-\[20rem\] {
-height:230px;
-} */
-
-
   }
 
   /* Porque isso importa */
@@ -1766,21 +1741,8 @@ height:230px;
     & .flex-1.px-4.py-5.sm\:p-6 {
       padding-top: 48px;
     }
-
   }
 
-  /* Porque isso importa Texto 2*/
-  /* & div[data-block-id="rLAcb7P-iRPWOHBFi5ZYO"]{
-margin:0 !important;
-border-radius:0 !important;
-background-color:#034873;
-padding-bottom:75px;
-
-background-image: url("https://i.postimg.cc/Hx51TFCf/imgem-banner.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-} */
 
   /* Porque isso importa Texto 1*/
   & div[data-block-id="dLMym8zzc33yPok2SB3Mo"] {
@@ -1794,8 +1756,6 @@ background-repeat: no-repeat;
     & .relative.rounded-base.overflow-hidden.shadow-card.screen-rounded-none.border-base.border-card.screen-border-x-0 {
       border-radius: 0;
     }
-
-
   }
 
   & div[data-block-id="kpUxpmY-2bLI8aTgSxZm-"] {
@@ -1806,7 +1766,6 @@ background-repeat: no-repeat;
       font-weight: 600;
       font-size: 35px;
     }
-
   }
 
   & div[data-block-id="ptbFsfdqvdKASPmAC6AUb"] {
@@ -1817,7 +1776,6 @@ background-repeat: no-repeat;
       color: #034873;
     }
   }
-
 }
 
 /*--------------------------------------------------------------*/
@@ -1840,12 +1798,10 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
 
   /* Texto Valores */
   & div[data-block-id="dqQC0JL4AomXQHHczdAFm"] {
+
     & .prose {
       color: #f1f1f4;
-
     }
-
-
   }
 
   & div[data-block-id="kpUxpmY-2bLI8aTgSxZm-"] {
@@ -1853,10 +1809,10 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     & .prose {
       color: #f1f1f4;
     }
-
   }
 
   & div[data-block-id="ptbFsfdqvdKASPmAC6AUb"] {
+
     & .prose {
       color: #f1f1f4;
     }
@@ -1869,6 +1825,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
 @media (min-width: 1024px) {
 
   body[data-path="/sobre-nos-teste"] {
+
     & .lg\:gap-5 {
       gap: 8.25rem;
     }
@@ -1890,16 +1847,12 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
       & .w-full.flex.flex-col.justify-center.relative.inset-0.z-10.text-start.items-start.text-white.px-6.\@xl\:px-16.\@5xl\:px-48.py-\[2rem\].\@3xl\:py-\[2rem\].\@5xl\:py-\[4rem\] {
         padding-left: 148px;
       }
-
     }
-
   }
-
 }
 
 /*--------------------------------------------------------------*/
-/*--------------------------------------------------------------*/
-
+/* Código todo para preferencia dark */
 @media (prefers-color-scheme: dark) {
 
   body[data-path="/home"][data-color-scheme-mode="null"],
@@ -2140,9 +2093,9 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     }
   }
 }
-
 /*--------------------------------------------------------------*/
 
+/* Código todo para preferencia light */
 @media(prefers-color-scheme: light){
 
 body[data-color-scheme-mode="null"] {
@@ -2691,7 +2644,9 @@ body[data-path^="/novidades"][data-color-scheme-mode="null"] {
 }
 
 }
+/*--------------------------------------------------------------*/
 
+/* Código todo para preferencia no-preference */
 @media(prefers-color-scheme: no-preference){
   body[data-color-scheme-mode="null"] {
 
@@ -3238,5 +3193,4 @@ body[data-path^="/novidades"][data-color-scheme-mode="null"] {
 
 }
 }
-
 /*--------------------------------------------------------------*/
