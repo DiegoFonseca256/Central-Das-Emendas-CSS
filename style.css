@@ -3,56 +3,56 @@ body {
   font-family: 'Museo Sans Rounded', sans-serif;
 }
 
-/*teste*/ 
-
+/*-------------------------------------------------------------*/
 /* Header */
 
+/* Barra de Pesquisa */
 .relative.inline-flex.items-center.gap-2.\[\&\>input\]\:cursor-pointer.block.rounded-input.appearance-none.border.placeholder\:text-content-disabled.placeholder\:text-label-md.transition.duration-200.px-2.py-\[3px\].min-h-\[40px\].text-label-md.focus-within\:ring-action-primary.focus-within\:border-action-primary.bg-surface.text-content.border-line.w-full.focus\:outline-none.focus-within\:ring-1.ring-offset-0 {
   background-color: #f1f1f4;
 
-
-
-
+  /* Texto da Barra de Pesquisa */
   & input {
     opacity: 1;
   }
 }
 
 /* Menu Header */
+
+/* Sessão Menu */
 .p-2.rounded-popover.shadow-popover.bg-surface.border.border-line-subdued.focus-visible\:ring.focus\:outline-none.ring-offset-0.overflow-y-auto.min-w-\[224px\].sm\:max-w-xs.z-\[60\] {
   background-color: #0C3954;
 
+  /* Opções Menu */
   & .rounded-base {
     background-color: #0C3954;
     width: 100%;
 
+    /* Texto Opções */
     & .text-content-on-background {
       color: #f1f1f4;
     }
-
-
   }
-
+  /* Opções Menu (hover) */
   & .rounded-base:hover {
     background-color: #6394BF;
   }
-
-
-
 }
+/*-------------------------------------------------------------*/
 
-/*Botao + no header */
+/*Botao (+) no header */
 header {
+  /* Sessão (+) */
   & .cursor-pointer.rounded-base.inline-block.py-\[9px\].w-10.h-10.leading-5.rounded-button.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused.transition-none {
     background-color: #f1f1f4;
     border-color: #150F15;
 
+    /* Icone (+) */
     & svg {
       color: #150F15;
     }
 
   }
-
+  /* Sesão (+) (hover) */
   & a:hover {
     color: #034873 !important;
   }
@@ -62,6 +62,7 @@ header {
 body[data-color-scheme-mode="dark"] {
   & header {
 
+    /* Opções do header (hover) (dark) */
     & a:hover {
       color: #6394BF !important;
     }
@@ -70,7 +71,6 @@ body[data-color-scheme-mode="dark"] {
 
 
 /*-------------------------------------------------------------*/
-
 /* Pagina de Login */
 
 body[data-path^="/auth/login"],
@@ -87,10 +87,12 @@ body[data-path^="/auth/forgot-password"] {
     color: #f1f1f4;
   }
 
+  /* Termo de Serviço e Privacidade */
   & .text-label-sm.font-medium.transition.duration-200.text-content {
     color: #f1f1f4;
   }
 
+  /* Texto Botão "Iniciar Sessão" */
   .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.bg-action-neutral.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-line.hidden.lg\:block.\!text-label-sm.text-content-on-topbar.bg-topbar.hover\:bg-topbar-subdued.shrink-0 {
     color: #150F15;
   }
@@ -113,10 +115,6 @@ body[data-path^="/auth/forgot-password"] {
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #0C3954;
 
-
-
-
-
     /* Botao de iniciar sessao */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.w-full.max-w-full.justify-center.truncate.relative.min-w-0.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused {
       background-color: #7E8DA6;
@@ -132,19 +130,17 @@ body[data-path^="/auth/forgot-password"] {
       transform: scale(1.1);
     }
 
+    /* Div "Ou continue com" */
     & .px-6.bg-surface.text-content-subdued {
       background-color: #0C3954;
     }
 
+    /* Linha de Divisão do Card */
     & .w-full.border-t.border-line {
       border-color: #f1f1f4;
     }
 
-
-
-
-
-
+    /* Botões de redes sociais */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.bg-action-neutral.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-line.w-full.justify-center {
       background-color: #0C3954;
       border-color: #f1f1f4;
@@ -155,30 +151,24 @@ body[data-path^="/auth/forgot-password"] {
       width: 151px;
     }
 
+    /* Botões de redes sociais  */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.bg-action-neutral.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-line.w-full.justify-center:hover {
       transform: scale(1.1);
     }
   }
 }
 
-
-
-
-
-
-
-/*-------------------------------------------------------------*/
-
 /*-------------------------------------------------------------*/
 /*Pagina Centro de Aprendizagem*/
 
-
 body[data-path^="/central-aprendizagem"] {
+
+  /* Botões "Analise" "Governo" "Regulamentação" "Educação" */
   & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.\!text-label-md.px-5.py-3.whitespace-nowrap.text-content-on-background-subdued.hover\:text-content-on-background-hovered {
     background-color: #7E8DA6;
     color: #f1f1f4
   }
-
+  /* Titulo Central de Aprendizagem */
   & h2 {
     font-family: 'Gilroy', sans-serif;
     font-weight: 1600;
@@ -348,7 +338,6 @@ body[data-path^="/funcionalidades-desejadas"][data-color-scheme-mode="dark"] {
 }
 
 /*------------------------------------------------------*/
-
 /*Pagina Apoie a Central*/
 body[data-path="/como-apoiar"] {
 
@@ -687,6 +676,7 @@ body[data-path="/diretorio-de-paineis"] {
 /* Novidades */
 /*-----------------------------------------------------------------*/
 
+/* Novidades (light)*/
 body[data-path^="/novidades"][data-color-scheme-mode="light"] {
 
   & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.max-w-\[15rem\].bg-surface.aria-pressed\:bg-surface.text-sm.text-start {
@@ -731,6 +721,7 @@ body[data-path^="/novidades"][data-color-scheme-mode="light"] {
 
 }
 
+/* Novidades (dark)*/
 body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
 
   & h1 {
@@ -765,6 +756,7 @@ body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
 }
 
 /*-----------------------------------------------------------------*/
+
 body[data-path^="/novidades/post"][data-color-scheme-mode="light"] {
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
@@ -781,7 +773,6 @@ body[data-path^="/novidades/post"][data-color-scheme-mode="light"] {
 
 }
 
-/*-----------------------------------------------------------------*/
 body[data-path^="/novidades/post"][data-color-scheme-mode="dark"] {
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
@@ -800,6 +791,7 @@ body[data-path^="/novidades/post"][data-color-scheme-mode="dark"] {
 }
 
 /*-----------------------------------------------------------------*/
+
 /*Home teste*/
 body[data-path="/home"][data-color-scheme-mode="light"],
 body[data-path="/"][data-color-scheme-mode="light"] {
@@ -1369,6 +1361,19 @@ body[data-path*="/post"][data-color-scheme-mode="light"] {
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
       background-color: #034873;
 
+      /* Nome Usuario Comentário */
+      & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.truncate.font-medium.text-content.shrink-0.max-w-full.focus-visible\:z-10 {
+        color:#f1f1f4;
+      }
+
+      /* Texto do comentário   */
+      & article{
+        & a{
+          color:#6394BF;
+          text-decoration:underline
+        }
+      }
+
       /* Sessão de Enviar Comentário */
       & .flex.flex-col.bg-surface.flex-grow.max-w-full.min-w-0 {
         background-color: transparent;
@@ -1412,46 +1417,40 @@ body[data-path*="/post"][data-color-scheme-mode="light"] {
     & svg {
       color: #034873;
     }
-    /* Lista  */
+    /* Lista Visualizar em Compartilhar */
     & ul[role="listbox"] {
       background-color: #0C3954;
 
+      /* Opção da lista Visualizar em Compartilhar */
       & li[role="option"] {
         background-color: #0C3954 !important;
         width: 100%;
-
+        /* Texto da opção da lista */
         & .min-w-0.max-w-full {
           color: #f1f1f4;
         }
-
+        /* opção selecionada */
         & .cursor-default.select-none.relative.py-2.px-3.text-content.bg-surface.font-semibold {
           background-color: #0C3954;
         }
-
+        /* Opção Default */
         & .cursor-default.select-none.relative.py-2.px-3.text-content.bg-surface.font-normal {
           background-color: #0C3954;
 
         }
-
-
-
       }
 
+      /* Opção da lista Visualizar em Compartilhar (Hover) */
       & li[role="option"]:hover {
         background-color: #6394BF;
-
-
-
       }
 
+      /* Tudo dentro da opção da lista Visualizar em Compartilhar */
       & li[role="option"] * {
         color: #f1f1f4;
       }
-
     }
-
   }
-
 }
 
 /*--------------------------------------------------------------*/
@@ -1540,6 +1539,7 @@ body[data-color-scheme-mode="light"] {
 
 }
 
+/*Mudar em todas as páginas do Modo Escuro(dark)*/
 body[data-color-scheme-mode="dark"] {
 
   & .relative.pointer-events-auto.bg-surface.text-content-subdued.sm\:rounded-modal.overflow-y-auto.overscroll-contain.flex.flex-col.mx-auto.w-full.sm\:max-w-2xl.max-h-screen.min-h-screen.sm\:min-h-0.h-full.sm\:max-h-\[calc\(100vh-2rem\)\].shadow-xl.transform.transition-all {
@@ -1553,101 +1553,6 @@ body[data-color-scheme-mode="dark"] {
       }
 
     }
-  }
-
-
-}
-
-/*--------------------------------------------------------------*/
-body[data-path="/teste-footer-rqayet4f"] {
-
-  & section[data-block-id="VdgR0nP8BDcpiPoOWWy_Y"] {
-    background-color: #0c3954;
-    height: 350px;
-    align-content: center;
-
-    & .hidden.lg\:flex.lg\:flex-wrap.h-full.items-center.gap-x-8.gap-y-10.py-2 * {
-      color: #150f15;
-    }
-
-
-    & .object-contain.max-h-\[var\(--c-header-logo-max-height\)\] {
-      filter: brightness(0) invert(1);
-    }
-
-    & .relative.inline-flex.items-center.gap-2.block.rounded-input.appearance-none.border.placeholder\:text-content-disabled.placeholder\:text-label-md.transition.duration-200.px-2.py-\[3px\].min-h-\[40px\].text-label-md.focus-within\:ring-action-primary.focus-within\:border-action-primary.bg-surface.text-content.border-line.w-full.focus\:outline-none.focus-within\:ring-1.ring-offset-0 {
-      background-color: transparent;
-      border-color: #150f15;
-
-      & input::placeholder {
-        color: #150f15;
-        opacity: 0.72;
-      }
-
-    }
-
-    & button[aria-label="Modo escuro"],
-    button[aria-label="Modo claro"] {
-      background-color: transparent;
-      border-color: #150f15;
-      color: #150f15;
-    }
-
-  }
-
-}
-
-
-/*--------------------------------------------------------------*/
-
-body[data-path="/teste-footer-2-97iblvyu"] {
-
-  & section[data-block-id="5dSRxNPtL1GdkJzFsIlqp"] {
-    background-color: #0c3954;
-    height: 350px;
-    align-content: center;
-
-    & .object-contain.max-h-\[var\(--c-header-logo-max-height\)\] {
-      filter: brightness(0) invert(1);
-    }
-
-  }
-
-  /*Footer 2 Teste*/
-  & section[data-block-id="yylrBVHEr_AxMFrLR57k1"] {
-    background-color: #0c3954;
-
-
-    & .border.border-card.flex {
-      background-color: transparent;
-    }
-
-    & * {
-      color: #f1f1f4;
-      outline: 1px solid red;
-    }
-
-    & table,
-    td,
-    th {
-      border: none !important;
-      border-collapse: collapse !important;
-      border-spacing: 0 !important;
-    }
-
-    & li {
-      padding: 0;
-    }
-
-    & div[data-block-id="FTV89RF4-ftUQVFKge3JF"] {
-
-      & .overflow-x-auto {
-        justify-content: center;
-        display: grid;
-      }
-
-    }
-
   }
 }
 
@@ -1779,8 +1684,6 @@ body[data-path="/sobre-nos-teste"] {
   }
 }
 
-/*--------------------------------------------------------------*/
-
 body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
 
   /* Titulo Central das Emendas */
@@ -1820,8 +1723,6 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
   }
 
 }
-
-/*--------------------------------------------------------------*/
 
 @media (min-width: 1024px) {
 
@@ -2185,99 +2086,103 @@ body[data-color-scheme-mode="null"] {
 
 body[data-path*="/post"][data-color-scheme-mode="null"] {
 
-  & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.truncate.font-medium.text-content.shrink-0.max-w-full.focus-visible\:z-10 {
-    color: #f1f1f4;
-  }
-
-
+  /* Sessão de Comentários */
   & .flex.flex-col.gap-y-2 {
 
+    /* Card de Comentário */
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
       background-color: #034873;
 
+      /* Nome Usuario Comentário */
+      & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.truncate.font-medium.text-content.shrink-0.max-w-full.focus-visible\:z-10 {
+        color:#f1f1f4;
+      }
+
+      /* Texto do comentário   */
+      & article{
+        & a{
+          color:#6394BF;
+          text-decoration:underline
+        }
+      }
+
+      /* Sessão de Enviar Comentário */
       & .flex.flex-col.bg-surface.flex-grow.max-w-full.min-w-0 {
         background-color: transparent;
 
-
+        /* Card de Enviar Comentário depois de Expandir */
         & .block.rounded-input.appearance-none.border.placeholder\:text-content-disabled.placeholder\:text-label-md.transition.duration-200.px-3.py-\[11px\].min-h-\[48px\].text-label-md.focus-within\:ring-action-primary.focus-within\:border-action-primary.bg-surface.text-content.border-line.w-full.focus\:outline-none.focus-within\:ring-1.ring-offset-0.relative.overflow-y-auto.flex.flex-col.gap-3.overflow-hidden.focus\:outline-none.focus-within\:ring {
           background-color: transparent;
           border-color: #f1f1f4;
 
-
+          /* Botão de Enviar */
           & .touch-manipulation.inline-block.rounded-button.px-3\.5.py-\[5px\].min-h-\[32px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused {
             background-color: #f1f1f4;
             color: #150F15;
           }
-
-
         }
       }
 
-
+      /* Card de Enviar Comentario antes de expandir */
       & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-3\.5.py-\[5px\].min-h-\[32px\].leading-5.text-label-sm.w-full.max-w-full.justify-start.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.mt-0.sm\:mt-1.\!font-normal.bg-surface-subdued.hover\:bg-surface-subdued-hovered.rounded-input {
         background-color: transparent;
         color: #f1f1f4;
         opacity: 0.63;
         border-color: #f1f1f4;
       }
-
     }
   }
 
+    /* Card ao clicar no botão de imagem do Enviar Comentário */
   & div[role="dialog"] {
 
+    /* Botões de escolha do card de imagem */
     & button[role="tab"] {
       color: #f1f1f4;
     }
-
+    /* Texto dentro do card de compartilhar */
     & .grow.appearance-none.focus-visible\:outline-none.bg-transparent {
       color: #150F15;
       opacity: 0.7;
     }
-
+    /* Icones do card de compartilhar */
     & svg {
       color: #034873;
     }
-
+    /* Lista Visualizar em Compartilhar */
     & ul[role="listbox"] {
       background-color: #0C3954;
 
+      /* Opção da lista Visualizar em Compartilhar */
       & li[role="option"] {
         background-color: #0C3954 !important;
         width: 100%;
-
+        /* Texto da opção da lista */
         & .min-w-0.max-w-full {
           color: #f1f1f4;
         }
-
+        /* opção selecionada */
         & .cursor-default.select-none.relative.py-2.px-3.text-content.bg-surface.font-semibold {
           background-color: #0C3954;
         }
-
+        /* Opção Default */
         & .cursor-default.select-none.relative.py-2.px-3.text-content.bg-surface.font-normal {
           background-color: #0C3954;
 
         }
-
-
-
       }
 
+      /* Opção da lista Visualizar em Compartilhar (Hover) */
       & li[role="option"]:hover {
         background-color: #6394BF;
-
-
-
       }
 
+      /* Tudo dentro da opção da lista Visualizar em Compartilhar */
       & li[role="option"] * {
         color: #f1f1f4;
       }
-
     }
-
   }
-
 }
 
 body[data-path="/home"][data-color-scheme-mode="null"],
