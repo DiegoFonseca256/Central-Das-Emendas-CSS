@@ -161,6 +161,7 @@ body[data-path^="/auth/forgot-password"] {
 /*-------------------------------------------------------------*/
 /*Pagina Centro de Aprendizagem*/
 
+/* Tem coisa a rever */
 body[data-path^="/central-aprendizagem"] {
 
   /* Botões "Analise" "Governo" "Regulamentação" "Educação" */
@@ -174,17 +175,18 @@ body[data-path^="/central-aprendizagem"] {
     font-weight: 1600;
   }
 
-  & .font-medium.text-heading-sm.text-content.line-clamp-3 {
+  /* Rever */
+  /* & .font-medium.text-heading-sm.text-content.line-clamp-3 {
     color: #f1f1f4;
     font-weight: 800;
     font-size: 27px;
     padding-top: 20px;
-  }
+  } */
 
   /* Cards */
   & .border.border-card.flex.flex-col.text-content-subdued {
 
-
+    /* Data */
     & .text-content.text-sm.flex.items-center {
       color: #f1f1f4;
     }
@@ -197,7 +199,7 @@ body[data-path^="/central-aprendizagem"] {
       font-weight: 800;
     }
 
-    /* Cards Tipo de Conteudo */
+    /* Cards Tipo de Conteudo e Data */
     & .text-content.text-sm.mt-0.min-w-0.break-words.empty\:hidden {
       color: #f1f1f4;
     }
@@ -312,6 +314,7 @@ body[data-path^="/funcionalidades-desejadas"] {
     color: #150F15;
   }
 
+  /* Botão "Adicionar desejo de funcionalidade" */
   & a[href="/funcionalidades-desejadas/new?post_type=vSl1GOJCkOi8xo1"] {
     color: #f1f1f4;
   }
@@ -341,22 +344,21 @@ body[data-path^="/funcionalidades-desejadas"][data-color-scheme-mode="dark"] {
 /*Pagina Apoie a Central*/
 body[data-path="/como-apoiar"] {
 
+  /* Titulo dos Card listagem */
   & h3 {
     color: #f1f1f4;
     width: fit-content;
-  }
-
-
-
-  & h3 {
     font-weight: 800;
     font-size: 20px;
   }
+  
 
+  /* Links da página */
   & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.text-link.hover\:text-link-hovered.ring-link {
     text-decoration: none !important;
     color: #f1f1f4;
   }
+
 
 
   /*1 Card listagem*/
@@ -364,68 +366,29 @@ body[data-path="/como-apoiar"] {
     color: #f1f1f4;
     background-color: #0C3954;
 
-    & span {
-      color: #f1f1f4;
-      width: fit-content;
-    }
-
-    & svg,
-    p {
+    /* Texto do card*/
+    & svg,p, .flex-grow.truncate {
       color: #f1f1f4;
     }
 
-    & .flex-grow.truncate {
-      color: #f1f1f4;
-    }
-
-
+    /* Div botão de expansão */
     & .text-content.bg-surface.hover\:bg-surface-hovered.hover\:text-content-hovered.group.w-full.flex.items-center.text-start.rounded-base.focus\:outline-none.focus-visible\:ring.ring-inset.ring-offset-0.font-medium.py-2.px-2.text-md {
       background-color: #0C3954;
       width: auto;
     }
 
-    & .flex-1.px-4.py-5.sm\:p-6 {
-      color: #f1f1f4;
-    }
-
   }
 
   /*2 Card listagem*/
-  & div[data-block-id="xOyU5589PekHcZ-FES5a5"] {
-    background-color: #6394BF;
-
-    & span {
-      color: #f1f1f4;
-      width: fit-content;
-    }
-
-    & svg {
-      color: #f1f1f4;
-    }
-
-    & .text-content.bg-surface.hover\:bg-surface-hovered.hover\:text-content-hovered.group.w-full.flex.items-center.text-start.rounded-base.focus\:outline-none.focus-visible\:ring.ring-inset.ring-offset-0.font-medium.py-2.px-2.text-md {
-      background-color: #6394BF;
-      width: auto;
-    }
-
-  }
-
-
-  /*3 Card listagem*/
   & div[data-block-id="yCnSovKRo1wshFN-ir53G"] {
     background-color: #7E8DA6;
 
-    & span {
-      color: #f1f1f4;
-      width: fit-content;
-    }
-
-
-
-    & svg {
+    /* Texto do card*/
+    & svg,p, .flex-grow.truncate {
       color: #f1f1f4;
     }
 
+    /* Div botão de expansão */
     & .text-content.bg-surface.hover\:bg-surface-hovered.hover\:text-content-hovered.group.w-full.flex.items-center.text-start.rounded-base.focus\:outline-none.focus-visible\:ring.ring-inset.ring-offset-0.font-medium.py-2.px-2.text-md {
       background-color: #7E8DA6;
       width: auto;
@@ -433,6 +396,21 @@ body[data-path="/como-apoiar"] {
 
   }
 
+  /*3 Card listagem*/
+  & div[data-block-id="xOyU5589PekHcZ-FES5a5"] {
+    background-color: #6394BF;
+
+    /* Texto do card*/
+    & svg,p, .flex-grow.truncate {
+      color: #f1f1f4;
+    }
+
+    /* Div botão de expansão */
+    & .text-content.bg-surface.hover\:bg-surface-hovered.hover\:text-content-hovered.group.w-full.flex.items-center.text-start.rounded-base.focus\:outline-none.focus-visible\:ring.ring-inset.ring-offset-0.font-medium.py-2.px-2.text-md {
+      background-color: #6394BF;
+      width: auto;
+    }
+  }
 }
 
 /*------------------------------------------------------*/
