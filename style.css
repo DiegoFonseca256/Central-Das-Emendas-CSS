@@ -1720,6 +1720,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     & div[data-block-id="TREBlRahMNXNSjEyBUPxN"] {
       & .flex-1.px-4.py-5.sm\:p-6 {
         padding-left: 148px;
+        color: pink;
       }
     }
 
