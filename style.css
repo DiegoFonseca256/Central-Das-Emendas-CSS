@@ -1716,11 +1716,10 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
         font-size: 50px;
       }
     }
-
+    /*Fundo do Título do Banner*/
     & div[data-block-id="TREBlRahMNXNSjEyBUPxN"] {
       & .flex-1.px-4.py-5.sm\:p-6 {
         padding-left: 148px;
-        background-color: pink;
       }
     }
 
