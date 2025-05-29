@@ -1560,6 +1560,7 @@ body[data-path="/sobre-nos-teste"] {
   & div[data-block-id="2HAcOoBV4M3m5FyFXEbOB"] {
     background-color:transparent;
 
+    /* Espaço */
     & .flex-1.px-4.py-5.sm\:p-6 {
       padding-top: 0;
     }
@@ -1681,7 +1682,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     }
   }
 
-  /* Texto Valores */
+  /* Cor Título Valores */
   & div[data-block-id="dqQC0JL4AomXQHHczdAFm"] {
 
     & .prose {
@@ -1689,6 +1690,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     }
   }
 
+  /* Cor Título Quer Apoiar */
   & div[data-block-id="kpUxpmY-2bLI8aTgSxZm-"] {
 
     & .prose {
@@ -1696,6 +1698,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     }
   }
 
+  /* Cor parágrago Quer Apoiar */
   & div[data-block-id="ptbFsfdqvdKASPmAC6AUb"] {
 
     & .prose {
@@ -1706,9 +1709,10 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
 }
 
 @media (min-width: 1024px) {
-
+  /* Página sobre nós */
   body[data-path="/sobre-nos-teste"] {
 
+    /* Espaço entre cards */
     & .lg\:gap-5 {
       gap: 8.25rem;
     }
@@ -1726,9 +1730,10 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
       }
     }
 
+    /* Div do parágrafo do por que isso importa */
     & div[data-block-id="dLMym8zzc33yPok2SB3Mo"] {
       & .w-full.flex.flex-col.justify-center.relative.inset-0.z-10.text-start.items-start.text-white.px-6.\@xl\:px-16.\@5xl\:px-48.py-\[2rem\].\@3xl\:py-\[2rem\].\@5xl\:py-\[4rem\] {
-        padding-left: 148px;
+        padding-left: 1480px;
       }
     }
   }
