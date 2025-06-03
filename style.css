@@ -1542,10 +1542,11 @@ body[data-path="/sobre-nos-teste"] {
     justify-content: center;
   }
 
-  /* Titulo Central das Emendas */
+  /* Caixa do Titulo Central das Emendas */
   & div[data-block-id="uzD62LjwFPwlk0fjUW9J6"] {
     background-color: transparent;
 
+    /* Título Central das Emendas */
     & p {
       font-weight: 600;
       color: #150f15;
@@ -1562,19 +1563,23 @@ body[data-path="/sobre-nos-teste"] {
       padding-top: 0;
     }
 
+    /* Texto do parágrafo */
     & p {
       color: #150f15;
 
+      /* Cor do texto em negrito */
       & strong:first-of-type {
         color: #034873;
       }
 
+      /* Grossura do negrito */
       & strong {
         font-weight: 700;
       }
     }
   }
 
+  /* Espaço entre o título e parágrafo */
   & div[data-block-id="7y3eN7g_l9TkGTAnmAW97"] {
     gap: 0;
   }
@@ -1590,10 +1595,11 @@ body[data-path="/sobre-nos-teste"] {
     }
   }
 
-  /* Section Valores */
+  /* Seção Valores */
   & section[data-block-id="R6I_UywBxksXac-MQB2AE"] {
     margin-top: 0 !important;
 
+    /* Caixas dos Valores */
     & .relative.rounded-base.overflow-hidden.shadow-card.screen-rounded-none.border-base.border-card.screen-border-x-0.bg-surface {
       background-color: #034873;
       border-radius: 30px;
@@ -1617,19 +1623,21 @@ body[data-path="/sobre-nos-teste"] {
     background-color: #034873;
     border-radius: 30px 30px 0 0;
 
+    /* Título Por que isso importa */
     & .prose {
       font-weight: 600;
       font-size: 35px;
       /* padding-left:100px; */
     }
 
+    /* Espaço entre o título e o começo da caixa */
     & .flex-1.px-4.py-5.sm\:p-6 {
       padding-top: 48px;
     }
   }
 
 
-  /* Porque isso importa Texto 1*/
+  /* Parágrafo por que isso importa*/
   & div[data-block-id="dLMym8zzc33yPok2SB3Mo"] {
     margin: 0 !important;
     border-radius: 0 !important;
@@ -1643,9 +1651,11 @@ body[data-path="/sobre-nos-teste"] {
     }
   }
 
+  /* Caixa Quer apoiar ou Precisa de Apoio */
   & div[data-block-id="kpUxpmY-2bLI8aTgSxZm-"] {
     background-color: transparent;
 
+    /* Título Quer apoiar ou precisa de apoio */
     & .prose {
       color: #034873;
       font-weight: 600;
@@ -1653,10 +1663,12 @@ body[data-path="/sobre-nos-teste"] {
     }
   }
 
+  /* Caixa parágrafo quer apoiar */
   & div[data-block-id="ptbFsfdqvdKASPmAC6AUb"] {
     background-color: transparent;
     margin-top: -20px !important;
 
+    /* parágrafo quer apoiar */
     & .prose {
       color: #034873;
     }
