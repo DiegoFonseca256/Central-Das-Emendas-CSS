@@ -427,14 +427,17 @@ body[data-path^="/noticias"] {
 
   }
 
-  /* Div botões "Tema" e "Data" */
+
+
   & .overflow-x-auto.scrollbar-hide.overscroll-none {
 
-    /* Botões "Tema" e "Data" */
     & button[aria-haspopup="true"] {
       color: #f1f1f4;
     }
+
   }
+
+
 
   /* Título */
   & .font-medium.text-heading-sm.text-content {
@@ -460,18 +463,15 @@ body[data-path^="/noticias/post"] {
 /*Footer da Barra de Pesquisa*/
 footer {
 
-  /* Icones */
   & span,
   kbd,
   svg {
-    color: #150F15 !important;
+    color: #150F15;
   }
 }
 
 /*Pagina Parceiros*/
 /*--------------------------------------------------------------*/
-
-/* Tem coisa a rever */
 body[data-path^="/parceiros"] {
 
   /*Titulo Inicial*/
@@ -487,11 +487,9 @@ body[data-path^="/parceiros"] {
       font-size: 15px;
     }
 
-    /* Rever */
-/* 
     & button {
       color: #034873;
-    } */
+    }
 
   }
 
@@ -517,10 +515,12 @@ body[data-path^="/parceiros"] {
       background-color: #034873 !important;
       color: #f1f1f4 !important;
     }
+
     /*-----------------------------------------------------------*/
 
     /*Tag Executor*/
     /*-----------------------------------------------------------*/
+
     & .badge[style*="background-color: rgb(255, 201, 107); color: rgb(0, 0, 0);"] {
       background-color: #7A1FA2 !important;
       color: #f1f1f4 !important;
@@ -530,10 +530,13 @@ body[data-path^="/parceiros"] {
       background-color: #7A1FA2 !important;
       color: #f1f1f4 !important;
     }
+
     /*-----------------------------------------------------------*/
+
 
     /*Tag Apoiador*/
     /*-----------------------------------------------------------*/
+
     & .badge[style*="background-color: rgb(253, 201, 208); color: rgb(0, 0, 0);"] {
       background-color: #F1F1F4 !important;
       color: #7E8DA6 !important;
@@ -543,7 +546,9 @@ body[data-path^="/parceiros"] {
       background-color: #F1F1F4 !important;
       color: #7E8DA6 !important;
     }
+
     /*-----------------------------------------------------------*/
+
 
     /*Tag Consultor*/
     /*-----------------------------------------------------------*/
@@ -555,6 +560,7 @@ body[data-path^="/parceiros"] {
     /*-----------------------------------------------------------*/
 
   }
+
 }
 
 body[data-path^="/parceiros"][data-color-scheme-mode="dark"] {
@@ -570,20 +576,18 @@ body[data-path^="/parceiros"][data-color-scheme-mode="dark"] {
 
 /*--------------------------------------------------------------*/
 body[data-path^="/diretorio-de-paineis"] {
-
-  /* Cards */
   & .border.border-card.flex.flex-col.text-content-subdued.transition {
-
-    /* Texto Card */
     & .whitespace-normal {
       color: #f1f1f4;
     }
 
-    /* Titulo Card */
     & h2 {
       font-weight: 800;
       color: #f1f1f4;
     }
+
+
+
   }
 
   /*Tag Atualizado*/
@@ -616,26 +620,19 @@ body[data-path^="/diretorio-de-paineis"] {
 
   /*-----------------------------------------------------------*/
 
-  /* Div dos botões de "Like" "Follow" "Share" dentro dos posts*/
+
   & .flex.flex-wrap.gap-2 {
-
-    /* Botões "Like "Follow" "Share" */
     & button {
-
-      /* Icones e texto dos botões */
       & span {
         color: #034873;
       }
     }
   }
+
 }
 
 body[data-path^="/diretorio-de-paineis"][data-color-scheme-mode="dark"] {
-
-  /* Cards */
   & .border.border-card.flex.flex-col.text-content-subdued.transition {
-
-    /* Tudo dentro dos Cards */
     & * {
       color: #f1f1f4;
     }
@@ -1733,7 +1730,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
     /* Div do parágrafo do por que isso importa */
     & div[data-block-id="dLMym8zzc33yPok2SB3Mo"] {
       & .w-full.flex.flex-col.justify-center.relative.inset-0.z-10.text-start.items-start.text-white.px-6.\@xl\:px-16.\@5xl\:px-48.py-\[2rem\].\@3xl\:py-\[2rem\].\@5xl\:py-\[4rem\] {
-        padding-left: 1480px;
+        padding-left: 148px;
       }
     }
   }
