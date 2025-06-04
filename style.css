@@ -1064,6 +1064,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
 body[data-path="/home"][data-color-scheme-mode="dark"],
 body[data-path="/"][data-color-scheme-mode="dark"] {
 
+  /* Tirando a linha entre os Patrocinadores */
   & table,
   td,
   th {
@@ -1072,7 +1073,8 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
     border-spacing: 0 !important;
   }
 
-  & div[data-block-id="N7J8CnGuLXFBgjwhdN3c4"] {
+  /* Rever */
+  /* & div[data-block-id="N7J8CnGuLXFBgjwhdN3c4"] {
     background-color: #282828;
     border-radius: 0.5rem;
 
@@ -1092,8 +1094,9 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
       font-weight: 600;
       font-size: 20px;
     }
-  }
+  } */
 
+  /* Card Parceiros da Central */
   & div[data-block-id="Oo0uJLw8p3ulbdFmQ3oZA"] {
     background-color: transparent;
   }
@@ -1105,11 +1108,12 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
     height: fit-content;
     gap: 0;
 
-    & p {
+    /* Rever */
+    /* & p {
       color: #f1f1f4;
       font-weight: 600;
       font-size: 20px;
-    }
+    } */
 
   }
 
@@ -1117,6 +1121,7 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
   & div[data-block-id="5k_cS7OyqI5lJZkSpQnuK"] {
     background-color: #6394BF;
 
+    /* Título Patrocínio */
     & a {
       color: #f1f1f4;
     }
