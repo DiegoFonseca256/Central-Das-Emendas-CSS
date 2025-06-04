@@ -741,6 +741,7 @@ body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
     }
   }
 
+    /* Card dos Posts*/
     & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
     background-color: #282828 !important;
 
@@ -749,7 +750,6 @@ body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
       font-weight: 800;
     }
   }
-
 }
 
 /*-----------------------------------------------------------------*/
@@ -759,14 +759,17 @@ body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
 body[data-path="/home"][data-color-scheme-mode="light"],
 body[data-path="/"][data-color-scheme-mode="light"] {
 
+  /* Titulos "Últimas notícias" e "Análises" */
   & h3 {
     font-weight: 800;
     font-size: 1.5em;
     padding-left: 1vh;
   }
 
-
+  /* Cards da página */
   & .flex-1.px-4.py-5.sm\:p-6 {
+
+    /* Texto(h2) dos cards  */
     & h2 {
       font-weight: 800;
     }
@@ -788,14 +791,12 @@ body[data-path="/"][data-color-scheme-mode="light"] {
   }
 
 
-
+  /* Sessão "Parceiros Central" */
   & section[data-block-id="KB6-yru7pM41TY07n3TRW"] {
 
     & * {
       color: #f1f1f4;
     }
-
-
 
     /*Card Patriocinio e Execucao*/
     & .grid.gap-5.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3 {
@@ -808,6 +809,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       background-color: #034873;
       border-radius: 0 0 23px 23px;
 
+      /* Rever */
       & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch {
         background-color: transparent;
       }
@@ -815,8 +817,9 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     }
 
     /*Card Patriocinio e Execucao Titulo*/
+    /* REVER */
     & div[data-block-id="swaLG6Xiuo6Vd6Jz9-RjC"] {
-
+      /* REVER */
       & .min-w-0.break-words.px-4.sm\:px-0.flex-1.min-w-0.break-words.pb-5 {
         background-color: #6394BF;
         border-radius: 23px 23px 0 0;
@@ -825,17 +828,15 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     }
 
     /*Card Apoio e Consultoria Titulo*/
+    /* Rever */
     & div[data-block-id="5UH-yN3YihXdcxnkpIqjj"] {
-
+      /* Rever */
       & .min-w-0.break-words.px-4.sm\:px-0.flex-1.min-w-0.break-words.pb-5 {
         background-color: #034873;
         border-radius: 23px 23px 0 0;
         padding: 20px 0 0 20px;
       }
     }
-
-
-
   }
 
   /*Card Sobre Nos*/
@@ -846,62 +847,60 @@ body[data-path="/"][data-color-scheme-mode="light"] {
   /*Sessao dos botoes*/
   & .grid.gap-5.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-2 {
 
+    /* Container dos Botoes */
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch {
       background-color: transparent;
-      transform: none;
-
-      & .flex-1.px-4.py-5.sm\:p-6.flex.flex-col.gap-4:hover {
-        transform: none !important;
-        transition: none !important;
-
-      }
-
     }
 
-    & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch:hover {}
-
-
+    /* Retirando hover indesejado do Container dos Botoes */
+    & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch:hover {
+      all:unset;
+      border-color:transparent;
+    }
   }
 
+  /* Rever */
   & .grid.gap-5.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3 {
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch {
       background-color: transparent;
     }
   }
 
-  /*Card Conheca o Painel*/
-
+  /*Card "Conheca o Painel"*/
   & div[data-block-id="6Ic4Z6I-HW9Ht7Fim-gf-"] {
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.block-html-script {
       background-color: #034873;
     }
-
   }
 
+  /* Sessão "Ultimas notícias" */
   & div[data-block-id="iLGPKWgwU1FNsP_j_pv7F"] {
-
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
       background-color: #6394BF;
     }
 
+    /* Card de posts de noticias */
     & .py-4.empty\:hidden {
       background-color: #f1f1f4;
       border-radius: 16px;
     }
 
+    /* Gap entre posts */
     & .flex.flex-col.-my-4.divide-line-subdued.divide-y {
       gap: 10px;
     }
-
   }
 
+  /* Sessão "Análises" */
   & div[data-block-id="1SN0-U8UqeIttT_OztnXA"] {
-
+    
+    /* Arrumando margins superior e inferior */
     & .flex-1.px-4.py-5.sm\:p-6 {
       margin-top: 15px;
       margin-bottom: 15px;
     }
 
+    /* Gap entre Analises */
     & .flex.flex-col.-my-4.divide-line-subdued.divide-y {
       gap: 10px;
     }
@@ -910,46 +909,36 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       color: #f1f1f4;
     }
 
+    /*  container posts de analise */
     & .py-4.empty\:hidden {
       background-color: #6394BF;
       border-radius: 20px;
     }
 
+    /* post de analise */
     & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5 {
       background-color: #6394BF;
     }
 
+    /* Card externo Analise */
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
       background-color: #034873;
     }
-
-
   }
 
+  /* Botão "Saiba Mais" */
   & a[href="/objetivo-xgf0dbp4"] {
     background-color: #150F15;
     color: #f1f1f4;
   }
 
+  /* Botão "Cadastre-se" */
   & a[href="/auth/signup?redirect=%2F"] {
     background-color: #7A1FA2;
     color: #f1f1f4;
   }
 
-  /*Card Patrocinio*/
-  & div[data-block-id="BupDqbiU8CS6y69HFrWxy"] {
-    & .prose {
-      display: flex;
-      gap: 15px;
-
-      & img[src="https://tribe-s3-production.imgix.net/fPcEfhdZtMfauBis3fwul?auto=compress,format&dl"] {
-        height: 150px;
-        align-content: center;
-      }
-
-    }
-  }
-
+  /* Card "Patrocinio e Execução" */
   & div[data-block-id="s_ZGfsIdSPpQ8apZFB-db"] {
     background-color: #6394BF;
     border-radius: 0.5rem;
@@ -957,11 +946,9 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     gap: 0;
 
     & p {
-      color: #f1f1f4;
       font-weight: 600;
       font-size: 20px;
     }
-
   }
 
   /*Card Apoio e Consultoria*/
@@ -971,47 +958,30 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     height: fit-content;
     gap: 0;
 
-    & .flex-1.px-4.py-5.sm\:p-6 {
-      padding-bottom: 35.5px;
-    }
-
     & p {
-      color: #f1f1f4;
       font-weight: 600;
       font-size: 20px;
     }
-
+    
+    /* Conatiner Titulo "Apoio e Consultoria" */
     & div[data-block-id="aOILTICyNdOW6jgGnCsiC"] {
       background-color: transparent;
     }
 
+    /* Container Corpo "apoio e Consultoria" */
     & div[data-block-id="jNWJXrW4BqdiB_eshdat_"] {
       background-color: transparent;
     }
-
-
-    /* & table, td {
-  border: none !important;
-} */
-
   }
 
-  & table,
-  td,
-  th {
+  /* Retirando as bordas das tabelas de imagens  */
+  & table,td,th {
     border: none !important;
     border-collapse: collapse !important;
     border-spacing: 0 !important;
   }
 
-  & div[data-block-id="uw7EHlKzl-BSd3sCZQc8N"] {
-    & .prose {
-      display: flex;
-      justify-content: center;
-    }
-
-  }
-
+  /* Adicionando margins aos posts */
   & .py-4.empty\:hidden {
     border-style: none;
     padding-left: 10px;
