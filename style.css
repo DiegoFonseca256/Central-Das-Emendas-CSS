@@ -161,7 +161,6 @@ body[data-path^="/auth/forgot-password"] {
 /*-------------------------------------------------------------*/
 /*Pagina Centro de Aprendizagem*/
 
-/* Tem coisa a rever */
 body[data-path^="/central-aprendizagem"] {
 
   /* Botões "Analise" "Governo" "Regulamentação" "Educação" */
@@ -174,14 +173,6 @@ body[data-path^="/central-aprendizagem"] {
     font-family: 'Gilroy', sans-serif;
     font-weight: 1600;
   }
-
-  /* Rever */
-  /* & .font-medium.text-heading-sm.text-content.line-clamp-3 {
-    color: #f1f1f4;
-    font-weight: 800;
-    font-size: 27px;
-    padding-top: 20px;
-  } */
 
   /* Cards */
   & .border.border-card.flex.flex-col.text-content-subdued {
@@ -657,15 +648,6 @@ body[data-path="/diretorio-de-paineis"] {
 /* Novidades (light)*/
 body[data-path^="/novidades"][data-color-scheme-mode="light"] {
 
-  /* Rever */
-  & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.max-w-\[15rem\].bg-surface.aria-pressed\:bg-surface.text-sm.text-start {
-    background-color: #034873 !important;
-    color: #f1f1f4;
-    padding: -3px 10px -3px 10px;
-    height: auto;
-    border-radius: 12px;
-  }
-
   /* Card dos Posts*/
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
     background-color: #6394BF !important;
@@ -790,14 +772,6 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     font-weight: 300;
   }
 
-
-  /* Rever */
-  & .grid.gap-5.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3 {
-    & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch {
-      background-color: transparent;
-    }
-  }
-
   /*Card "Conheca o Painel"*/
   & div[data-block-id="6Ic4Z6I-HW9Ht7Fim-gf-"] {
     & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.block-html-script {
@@ -879,7 +853,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     }
   }
 
-     /* Sessão "Parceiros Central" */
+  /* Sessão "Parceiros da Central" */
   & section[data-block-id="KB6-yru7pM41TY07n3TRW"] {
 
     & * {
@@ -896,34 +870,6 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     & .grid.gap-5.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-2 {
       background-color: #034873;
       border-radius: 0 0 23px 23px;
-
-      /* Rever */
-      & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card.cursor-pointer.hover\:shadow-card-hovered.transition-all.ease-in-out.duration-200.justify-start.stretch {
-        background-color: transparent;
-      }
-
-    }
-
-    /*Card Patriocinio e Execucao Titulo*/
-    /* REVER */
-    & div[data-block-id="swaLG6Xiuo6Vd6Jz9-RjC"] {
-      /* REVER */
-      & .min-w-0.break-words.px-4.sm\:px-0.flex-1.min-w-0.break-words.pb-5 {
-        background-color: #6394BF;
-        border-radius: 23px 23px 0 0;
-        padding: 20px 0 0 20px;
-      }
-    }
-
-    /*Card Apoio e Consultoria Titulo*/
-    /* Rever */
-    & div[data-block-id="5UH-yN3YihXdcxnkpIqjj"] {
-      /* Rever */
-      & .min-w-0.break-words.px-4.sm\:px-0.flex-1.min-w-0.break-words.pb-5 {
-        background-color: #034873;
-        border-radius: 23px 23px 0 0;
-        padding: 20px 0 0 20px;
-      }
     }
   }
 
@@ -1042,48 +988,17 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
     border-spacing: 0 !important;
   }
 
-  /* Rever */
-  /* & div[data-block-id="N7J8CnGuLXFBgjwhdN3c4"] {
-    background-color: #282828;
-    border-radius: 0.5rem;
-
-    & p {
-      color: #f1f1f4;
-      font-weight: 600;
-      font-size: 20px;
-    }
-  }
-
-  & div[data-block-id="s_ZGfsIdSPpQ8apZFB-db"] {
-    background-color: #282828;
-    border-radius: 0.5rem;
-
-    & p {
-      color: #f1f1f4;
-      font-weight: 600;
-      font-size: 20px;
-    }
-  } */
-
   /* Card Parceiros da Central */
   & div[data-block-id="Oo0uJLw8p3ulbdFmQ3oZA"] {
     background-color: transparent;
   }
 
-  /*Card Patrocinio*/
+  /*Card "Patrocinio e Execução" */
   & div[data-block-id="s_ZGfsIdSPpQ8apZFB-db"] {
     background-color: #6394BF;
     border-radius: 0.5rem;
     height: fit-content;
     gap: 0;
-
-    /* Rever */
-    /* & p {
-      color: #f1f1f4;
-      font-weight: 600;
-      font-size: 20px;
-    } */
-
   }
 
   /*Card Patrocinio Parte de Cima*/
@@ -1093,25 +1008,14 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
     /* Título Patrocínio */
     & a {
       color: #f1f1f4;
+      font-weight: 600;
+      font-size: 20px;
     }
   }
 
   /*Card Patrocinio Parte de Baixo*/
   & div[data-block-id="uw7EHlKzl-BSd3sCZQc8N"] {
     background-color: #6394BF;
-
-    & .prose {
-      display: flex;
-      justify-content: center;
-    }
-
-    @media(max-width:768px) {
-      & .prose {
-        display: flex;
-        justify-content: center;
-      }
-    }
-
   }
 
   /*Card Apoiadores*/
@@ -1121,20 +1025,12 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
     height: fit-content;
     gap: 0;
 
-    & .flex-1.px-4.py-5.sm\:p-6 {
-      padding-bottom: 35.5px;
-    }
-
-    & p {
+    /* Titulo "Apoiadores e Consultores" */
+    & a {
       color: #f1f1f4;
       font-weight: 600;
       font-size: 20px;
     }
-
-    & a {
-      color: #f1f1f4;
-    }
-
   }
 
   /*Card Apoiadores Parte de Cima*/
