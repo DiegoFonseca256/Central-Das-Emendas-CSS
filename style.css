@@ -984,7 +984,7 @@ body[data-path^="/funcionalidades-desejadas"][data-color-scheme-mode="dark"] {
 
 /*------------------------------------------------------*/
 /* Sobre Nos */
-body[data-path="/sobre-nos-teste"] {
+body[data-path="/sobre-nos"] {
 
   /* Centralizando o texto Banner */
   & .basis-full.text-start.items-start.justify-start.flex.items-center.gap-1.flex-wrap.font-bold {
@@ -1124,7 +1124,7 @@ body[data-path="/sobre-nos-teste"] {
   }
 }
 
-body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
+body[data-path="/sobre-nos"][data-color-scheme-mode="dark"] {
 
   /* Titulo Central das Emendas */
   & div[data-block-id="uzD62LjwFPwlk0fjUW9J6"] {
@@ -1168,7 +1168,7 @@ body[data-path="/sobre-nos-teste"][data-color-scheme-mode="dark"] {
 
 @media (min-width: 1024px) {
   /* Página sobre nós */
-  body[data-path="/sobre-nos-teste"] {
+  body[data-path="/sobre-nos"] {
 
     /* Espaço entre cards */
     & .lg\:gap-5 {
