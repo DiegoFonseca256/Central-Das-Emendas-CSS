@@ -1549,8 +1549,14 @@ body[data-color-scheme-mode="light"] {
 
     }
 
-    & .rounded-base:hover {
+    /* Hover dos Botoes do popup */
+    & button[role="tab"]:hover {
       background-color: #6394BF;
+    }
+
+    /* Placeholder do Input do popup */
+    & input::placeholder{
+      color:#f1f1f4;
     }
 
     & * {
@@ -2267,18 +2273,11 @@ body[data-color-scheme-mode="null"] {
 
         & .cursor-default.select-none.relative.py-2.px-3.text-content.bg-surface.font-normal {
           background-color: #0C3954;
-
         }
-
-
-
       }
 
       & li[role="option"]:hover {
         background-color: #6394BF;
-
-
-
       }
 
       & li[role="option"] * {
@@ -2289,29 +2288,42 @@ body[data-color-scheme-mode="null"] {
 
   }
 
+  /* Popups */
   & .rounded-popover {
     background-color: #0C3954;
 
     & .rounded-base {
       background-color: #0C3954;
-      width: 100%;
 
       & .text-content-on-background {
         color: #f1f1f4;
       }
 
-
     }
 
-    & .rounded-base:hover {
+    /* Hover dos Botoes do popup */
+    & button[role="tab"]:hover {
       background-color: #6394BF;
+    }
+
+    /* Placeholder do Input do popup */
+    & input::placeholder{
+      color:#f1f1f4;
     }
 
     & * {
       color: #f1f1f4;
       border-color: #f1f1f4;
     }
+
+    /* Botão "Remover" da tabela de alterar imagem */
+    & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-negative.bg-action-neutral.hover\:bg-action-destructive-subdued-hovered.active\:bg-action-destructive-subdued-pressed.disabled\:bg-action-destructive-disabled.disabled\:text-content-disabled.border-transparent.focus\:ring-on-error.ring-action-destructive.shrink-0 {
+      color:#c84344;
+      font-weight:600;
+    }
+
   }
+
 }
 }
 /*--------------------------------------------------------------*/
