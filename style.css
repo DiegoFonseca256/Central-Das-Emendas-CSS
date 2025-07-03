@@ -938,8 +938,8 @@ body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
 }
 
 /*-------------------------------------------------------------*/
-/*Página Funcionalidades Desejadas*/
-body[data-path^="/funcionalidades-desejadas"] {
+/*Página Sugestoes*/
+body[data-path^="/sugestoes"] {
 
   & h2 {
     font-weight: 800;
@@ -950,7 +950,7 @@ body[data-path^="/funcionalidades-desejadas"] {
   }
 
   /* Botão "Adicionar desejo de funcionalidade" */
-  & a[href="/funcionalidades-desejadas/new?post_type=vSl1GOJCkOi8xo1"] {
+  & a[href="/sugestoes/new?post_type=vSl1GOJCkOi8xo1"] {
     color: #f1f1f4;
   }
 
@@ -969,7 +969,7 @@ body[data-path^="/funcionalidades-desejadas"] {
 
 }
 
-body[data-path^="/funcionalidades-desejadas"][data-color-scheme-mode="dark"] {
+body[data-path^="/sugestoes"][data-color-scheme-mode="dark"] {
   & h3 {
     color: #f1f1f4;
   }
