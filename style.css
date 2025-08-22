@@ -427,8 +427,6 @@ body[data-path^="/noticias"] {
 
   }
 
-
-
   & .overflow-x-auto.scrollbar-hide.overscroll-none {
 
     & button[aria-haspopup="true"] {
@@ -436,8 +434,6 @@ body[data-path^="/noticias"] {
     }
 
   }
-
-
 
   /* Título */
   & .font-medium.text-heading-sm.text-content {
@@ -1146,10 +1142,11 @@ body[data-path="/"][data-color-scheme-mode="dark"] {
   & div[data-block-id="uw7EHlKzl-BSd3sCZQc8N"] {
     background-color: #6394BF;
 
-    & .prose {
+    /* Rever */
+    /* & .prose {
       display: flex;
       justify-content: center;
-    }
+    } */
 
     @media(max-width:768px) {
       & .prose {
