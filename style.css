@@ -442,7 +442,6 @@ body[data-path^="/noticias"] {
 
   }
 
-  
   & .overflow-x-auto.scrollbar-hide.overscroll-none {
 
     & button[aria-haspopup="true"] {
