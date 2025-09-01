@@ -669,11 +669,11 @@ body[data-path="/diretorio-de-paineis"] {
 
 }
 
-/* Novidades */
+/* Informes */
 /*-----------------------------------------------------------------*/
 
-/* Novidades (light)*/
-body[data-path^="/novidades"][data-color-scheme-mode="light"] {
+/* Informes (light)*/
+body[data-path^="/informes"][data-color-scheme-mode="light"] {
 
   & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.max-w-\[15rem\].bg-surface.aria-pressed\:bg-surface.text-sm.text-start {
     background-color: #034873 !important;
@@ -717,8 +717,8 @@ body[data-path^="/novidades"][data-color-scheme-mode="light"] {
 
 }
 
-/* Novidades (dark)*/
-body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
+/* Informes (dark)*/
+body[data-path^="/informes"][data-color-scheme-mode="dark"] {
 
   & h1 {
     color: #f1f1f4;
@@ -753,7 +753,7 @@ body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
 
 /*-----------------------------------------------------------------*/
 
-body[data-path^="/novidades/post"][data-color-scheme-mode="light"] {
+body[data-path^="/informes/post"][data-color-scheme-mode="light"] {
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #6394BF;
@@ -769,7 +769,7 @@ body[data-path^="/novidades/post"][data-color-scheme-mode="light"] {
 
 }
 
-body[data-path^="/novidades/post"][data-color-scheme-mode="dark"] {
+body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #282828;
@@ -1469,8 +1469,8 @@ body[data-path="/diretorio-de-paineis"] {
 }
 
 /*-------------------------------------------------------------*/
-/* Novidades */
-body[data-path^="/novidades"][data-color-scheme-mode="light"] {
+/* Informes */
+body[data-path^="/informes"][data-color-scheme-mode="light"] {
 
   /* Card dos Posts*/
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
@@ -1513,9 +1513,9 @@ body[data-path^="/novidades"][data-color-scheme-mode="light"] {
 
 }
 
-body[data-path^="/novidades"][data-color-scheme-mode="dark"] {
+body[data-path^="/informes"][data-color-scheme-mode="dark"] {
 
-  /* Titulo Novidades */
+  /* Titulo Informes */
   & h1 {
     color: #f1f1f4;
   }
@@ -2695,8 +2695,8 @@ body[data-path="/"][data-color-scheme-mode="null"] {
 }
 
 /*-------------------------------------------------------------*/
-/* Novidades */
-body[data-path^="/novidades"][data-color-scheme-mode="null"] {
+/* Informes */
+body[data-path^="/informes"][data-color-scheme-mode="null"] {
 
   /* Card dos Posts*/
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
@@ -2739,7 +2739,7 @@ body[data-path^="/novidades"][data-color-scheme-mode="null"] {
 
 }
 
-body[data-path^="/novidades/post"][data-color-scheme-mode="null"] {
+body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
   /* Card de post */
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
@@ -3188,8 +3188,8 @@ body[data-path="/"][data-color-scheme-mode="null"] {
 }
 
 /*-------------------------------------------------------------*/
-/* Novidades */
-body[data-path^="/novidades"][data-color-scheme-mode="null"] {
+/* Informes */
+body[data-path^="/informes"][data-color-scheme-mode="null"] {
 
   /* Card dos Posts*/
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
@@ -3232,7 +3232,7 @@ body[data-path^="/novidades"][data-color-scheme-mode="null"] {
 
 }
 
-body[data-path^="/novidades/post"][data-color-scheme-mode="null"] {
+body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
   /* Card de post */
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
