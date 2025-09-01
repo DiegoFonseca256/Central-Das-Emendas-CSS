@@ -717,6 +717,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
 
 }
 
+
 /* Informes (dark)*/
 body[data-path^="/informes"][data-color-scheme-mode="dark"] {
 
