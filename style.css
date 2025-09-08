@@ -818,7 +818,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     padding-left: 0 !important;
     padding-bottom: 0 !important;
     background-color: #f1f1f4;
-    color: #034873;
+    color: black;
   }
 
   /*Ajustando grossura do conteúdo das Notícias e Análises*/
@@ -952,7 +952,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
 
     & h2{
       color:black;
-      
+
     }
     
     /* Conatiner Titulo "Apoio e Consultoria" */
