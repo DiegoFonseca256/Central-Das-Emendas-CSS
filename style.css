@@ -848,7 +848,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       /* Texto das noticias */
       & article {
         color: black;
-        
+
       }
 
       & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5 {
@@ -1927,7 +1927,7 @@ body[data-path="/como-apoiar"] {
 
   /* Titulo dos Card listagem */
   & h3 {
-    color: #f1f1f4;
+    color: black;
     width: fit-content;
     font-weight: 800;
     font-size: 20px;
@@ -1937,7 +1937,7 @@ body[data-path="/como-apoiar"] {
   /* Links da página */
   & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.text-link.hover\:text-link-hovered.ring-link {
     text-decoration: none !important;
-    color: #f1f1f4;
+    color: black;
   }
 
 
@@ -2021,7 +2021,7 @@ body[data-path*="/post"][data-color-scheme-mode="light"] {
 
       /* Nome Usuario Comentário */
       & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.truncate.font-medium.text-content.shrink-0.max-w-full.focus-visible\:z-10 {
-        color:#f1f1f4;
+        color:black;
       }
 
       /* Texto do comentário   */
