@@ -1583,12 +1583,12 @@ body[data-path^="/sugestoes"] {
 
   /*titulo dos posts*/
   & .font-medium.text-heading-xs.text-content.line-clamp-3 {
-    color: #f1f1f4;
+    color: black;
   }
 
   /*titulo dentro dos posts*/
   & .font-medium.text-heading-xs.text-content {
-    color: #f1f1f4;
+    color: black;
     font-weight: 800;
   }
 
@@ -1598,7 +1598,7 @@ body[data-path^="/sugestoes"] {
 
 body[data-path^="/sugestoes"][data-color-scheme-mode="dark"] {
   & h3 {
-    color: #f1f1f4;
+    color: black;
   }
 }
 
