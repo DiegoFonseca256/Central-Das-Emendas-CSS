@@ -1406,6 +1406,7 @@ body[data-path^="/diretorio-de-paineis"] {
     & .whitespace-normal {
       color: black;
     }
+    
 
     & h2 {
       font-weight: 800;
