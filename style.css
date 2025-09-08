@@ -1294,6 +1294,7 @@ body[data-path^="/central-aprendizagem"] {
       color: black;
       font-weight: 800;
     }
+    
 
     /* Cards Tipo de Conteudo e Data */
     & .text-content.text-sm.mt-0.min-w-0.break-words.empty\:hidden {
