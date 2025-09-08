@@ -1406,14 +1406,16 @@ body[data-path^="/diretorio-de-paineis"] {
     & .whitespace-normal {
       color: black;
     }
-    
+
+  & .text-content.text-sm.mt-0.min-w-0.break-words.empty\:hidden{
+    color: black;
+  }
+
 
     & h2 {
       font-weight: 800;
       color: black;
     }
-
-
 
   }
 
