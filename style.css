@@ -2410,6 +2410,7 @@ body[data-color-scheme-mode="dark"] {
           font-weight: 300;
         }
       }
+      
 
       & .flex.flex-col.-my-4.divide-line-subdued.divide-y {
         gap: 10px;
