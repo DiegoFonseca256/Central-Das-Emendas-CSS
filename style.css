@@ -2778,7 +2778,8 @@ body[data-path*="/post"][data-color-scheme-mode="null"] {
   & .basis-full.min-w-0 {
     & * {
       color: black;
-    }}
+    }
+  }
 
 
   /* Sessão de Comentários */
