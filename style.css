@@ -1291,7 +1291,7 @@ body[data-path^="/central-aprendizagem"] {
     /* Cards Titulos */
     & h2,
     h1 {
-      color: #f1f1f4;
+      color: black;
       font-weight: 800;
     }
 
