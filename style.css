@@ -1231,7 +1231,7 @@ body[data-path^="/noticias"] {
 
     /*Data*/
     & .text-content.text-sm.mt-0.min-w-0.break-words.empty\:hidden {
-      color: #f1f1f4;
+      color: black;
     }
   }
 
@@ -1294,7 +1294,7 @@ body[data-path^="/central-aprendizagem"] {
       color: black;
       font-weight: 800;
     }
-    
+
 
     /* Cards Tipo de Conteudo e Data */
     & .text-content.text-sm.mt-0.min-w-0.break-words.empty\:hidden {
@@ -2401,12 +2401,12 @@ body[data-color-scheme-mode="dark"] {
         padding-right: 10px;
 
         & h2 {
-          color: #f1f1f4;
+          color: black;
           font-weight: 800;
         }
 
         & .prose {
-          color: #f1f1f4;
+          color: black;
           font-weight: 300;
         }
       }
