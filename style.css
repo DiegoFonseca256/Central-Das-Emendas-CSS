@@ -884,7 +884,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     }
 
     & h2 {
-      color: #f1f1f4;
+      color: black;
     }
 
     /*  container posts de analise */
