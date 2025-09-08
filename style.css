@@ -911,9 +911,6 @@ body[data-path="/"][data-color-scheme-mode="light"] {
   /* Sessão "Parceiros da Central" */
   & section[data-block-id="KB6-yru7pM41TY07n3TRW"] {
 
-    & * {
-      color: #f1f1f4;
-    }
 
     /*Card Patriocinio e Execucao*/
     & .grid.gap-5.grid-cols-1.sm\:grid-cols-2.lg\:grid-cols-3 {
@@ -982,6 +979,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
     /*Card Sobre Nos*/
   & div[data-block-id="C5qmpMJXw-ObulmruuTMk"] {
     background-color: #034873;
+    color: black;
   }
 
 
