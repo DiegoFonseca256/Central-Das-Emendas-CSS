@@ -2002,7 +2002,7 @@ body[data-path*="/post"] {
     & * {
       color: black;
     }
-    
+
 
     & .shrink-0.h-\[1\.25em\].w-\[1\.25em\].flex.items-center.justify-center {
       display: none;
@@ -2013,6 +2013,12 @@ body[data-path*="/post"] {
 
 body[data-path*="/post"][data-color-scheme-mode="light"] {
 
+  & .basis-full.min-w-0 {
+    & * {
+      color: black;
+    }
+  }
+  
   /* Sessão de Comentários */
   & .flex.flex-col.gap-y-2 {
 
