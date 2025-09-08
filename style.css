@@ -848,6 +848,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       /* Texto das noticias */
       & article {
         color: black;
+        
       }
 
       & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5 {
