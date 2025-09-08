@@ -807,6 +807,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
 
     /* Texto(h2) dos cards  */
     & h2 {
+      color:black;
       font-weight: 800;
     }
   }
