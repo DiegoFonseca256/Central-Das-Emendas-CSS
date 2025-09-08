@@ -1404,12 +1404,12 @@ body[data-path^="/central-aprendizagem/post"] {
 body[data-path^="/diretorio-de-paineis"] {
   & .border.border-card.flex.flex-col.text-content-subdued.transition {
     & .whitespace-normal {
-      color: #f1f1f4;
+      color: black;
     }
 
     & h2 {
       font-weight: 800;
-      color: #f1f1f4;
+      color: black;
     }
 
 
