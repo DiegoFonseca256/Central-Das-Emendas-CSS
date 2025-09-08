@@ -811,7 +811,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       font-weight: 800;
     }
   }
-  
+
 
   /*Titulos*/
   & .w-full.flex.flex-col.justify-center.relative.inset-0.z-10.text-start.items-start.text-white.px-6 {
@@ -1243,7 +1243,7 @@ body[data-path^="/noticias"] {
 
   /* Título */
   & .font-medium.text-heading-sm.text-content {
-    color: #f1f1f4;
+    color: black;
     font-weight: 800;
   }
 
