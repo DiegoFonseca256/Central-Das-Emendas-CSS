@@ -811,6 +811,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       font-weight: 800;
     }
   }
+  
 
   /*Titulos*/
   & .w-full.flex.flex-col.justify-center.relative.inset-0.z-10.text-start.items-start.text-white.px-6 {
