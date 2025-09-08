@@ -2023,6 +2023,7 @@ body[data-path*="/post"][data-color-scheme-mode="light"] {
       & .cursor-pointer.rounded-base.transition.duration-200.focus\:outline-none.focus-visible\:ring.truncate.font-medium.text-content.shrink-0.max-w-full.focus-visible\:z-10 {
         color:black;
       }
+      
 
       /* Texto do comentário   */
       & article{
