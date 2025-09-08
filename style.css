@@ -949,6 +949,10 @@ body[data-path="/"][data-color-scheme-mode="light"] {
       font-weight: 600;
       font-size: 20px;
     }
+
+    & h2{
+      color:black;
+    }
     
     /* Conatiner Titulo "Apoio e Consultoria" */
     & div[data-block-id="aOILTICyNdOW6jgGnCsiC"] {
@@ -980,7 +984,7 @@ body[data-path="/"][data-color-scheme-mode="light"] {
   & div[data-block-id="C5qmpMJXw-ObulmruuTMk"] {
     background-color: #034873;
     color: black;
-    
+
   }
 
 
@@ -2664,6 +2668,7 @@ body[data-path="/"][data-color-scheme-mode="null"] {
     /*Card Sobre Nos*/
   & div[data-block-id="C5qmpMJXw-ObulmruuTMk"] {
     background-color: #034873;
+    color: black;
   }
 
 
@@ -3164,6 +3169,7 @@ body[data-path="/"][data-color-scheme-mode="null"] {
     /*Card Sobre Nos*/
   & div[data-block-id="C5qmpMJXw-ObulmruuTMk"] {
     background-color: #034873;
+    color: black;
   }
 
 
