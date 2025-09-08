@@ -2018,7 +2018,7 @@ body[data-path*="/post"][data-color-scheme-mode="light"] {
       color: black;
     }
   }
-  
+
   
   /* Sessão de Comentários */
   & .flex.flex-col.gap-y-2 {
@@ -2774,6 +2774,12 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 /*-------------------------------------------------------------*/
 /* Posts do Site */
 body[data-path*="/post"][data-color-scheme-mode="null"] {
+
+  & .basis-full.min-w-0 {
+    & * {
+      color: black;
+    }}
+
 
   /* Sessão de Comentários */
   & .flex.flex-col.gap-y-2 {
