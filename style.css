@@ -2000,7 +2000,7 @@ body[data-path="/como-apoiar"] {
 body[data-path*="/post"] {
   & .basis-full.min-w-0 {
     & * {
-      color: #f1f1f4;
+      color: black;
     }
 
     & .shrink-0.h-\[1\.25em\].w-\[1\.25em\].flex.items-center.justify-center {
