@@ -1246,6 +1246,7 @@ body[data-path^="/noticias"] {
     color: black;
     font-weight: 800;
   }
+  
 
   /*Tag Noticia*/
   & .badge[style*="background-color:#7E5700;color:#ffffff"] {
