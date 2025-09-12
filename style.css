@@ -1845,7 +1845,12 @@ body[data-path^="/parceiros"] {
     }
 
   }
-  
+
+  & .font-medium.text-heading-sm.text-content.line-clamp-3{
+    color: black;
+
+  }
+
 
   /*Cards pretos*/
   & .border.border-card.flex.flex-col.text-content-subdued {
