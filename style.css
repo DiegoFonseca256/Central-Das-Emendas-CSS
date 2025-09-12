@@ -1851,7 +1851,7 @@ body[data-path^="/parceiros"] {
 
     /*Cards titulo*/
     & h2 {
-      color: #f1f1f4;
+      color: black;
       font-weight: 800;
     }
 
