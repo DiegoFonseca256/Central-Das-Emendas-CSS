@@ -3220,7 +3220,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
     /* Titulo do post */
     & .font-medium.text-heading-xs.text-content {
-      color: #f1f1f4;
+      color: black;
       font-weight: 800;
     }
 
