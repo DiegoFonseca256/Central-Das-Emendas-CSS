@@ -635,7 +635,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
     background-color: #f1f1f4;
 
     & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5 {
-      background-color: white !important;
+      background-color: #f1f1f4 !important;
       border-radius: 20px;
       padding: 20px;
       padding-bottom: 30px;
@@ -643,7 +643,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
 
       & h2,
       h1 {
-        color: #f1f1f4;
+        color: black;
         font-weight: 800;
       }
 
