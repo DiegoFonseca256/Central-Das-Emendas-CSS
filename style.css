@@ -3191,6 +3191,14 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
       padding-bottom: 30px;
       padding-top: 30px;
 
+      & .py-4.empty\:hidden{
+        background-color: #f1f1f4 !important;
+        border-radius: 20px;
+        padding: 20px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+
       /* Texto dos cards */
       & h2,
       h1 {
