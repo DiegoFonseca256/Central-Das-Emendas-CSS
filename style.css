@@ -92,12 +92,12 @@ body[data-path^="/auth/forgot-password"] {
   #password,
   #email,
   #name {
-    background-color: #0C3954;
+    background-color: #f1f1f4;
     border-color: #f1f1f4;
     color: #f1f1f4;
   }
 
-  
+
   /* Termo de Serviço e Privacidade */
   & .text-label-sm.font-medium.transition.duration-200.text-content {
     color: black;
