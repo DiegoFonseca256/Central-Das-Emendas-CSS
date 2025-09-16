@@ -3212,7 +3212,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
   /* Card de post */
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
-    background-color: #f1f1f4;
+    background-color: red;
 
     /* Titulo do post */
     & .font-medium.text-heading-xs.text-content {
