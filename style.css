@@ -714,10 +714,10 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #282828;
     color: #f1f1f4 !important;
+    }
 
     & .prose{
       color: #f1f1f4;
-    }
 
     & .font-medium.text-heading-xs.text-content {
       color: #f1f1f4;
