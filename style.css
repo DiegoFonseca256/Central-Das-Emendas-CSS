@@ -699,6 +699,9 @@ body[data-path^="/informes/post"][data-color-scheme-mode="light"] {
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #f1f1f4;
 
+    & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5{
+      background-color: #f1f1f4 !important;
+    }
 
 
     & .font-medium.text-heading-xs.text-content {
@@ -2675,15 +2678,6 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
   /* Card dos Posts*/
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
     background-color: #f1f1f4 !important;
-
-    & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5{
-      background-color: #f1f1f4 !important;
-    }
-
-    & h1{
-      color:#f1f1f4;
-      font-weight: 800;
-    }
   }
 
   /* Container dos cards  */
