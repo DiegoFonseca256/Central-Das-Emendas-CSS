@@ -653,10 +653,6 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
 
   }
 
-  & .py-4.empty\:hidden {
-    border-style: hidden;
-  }
-
 }
 
 
