@@ -641,6 +641,10 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
       padding-bottom: 30px;
       padding-top: 30px;
 
+      & .text-content.text-sm.mt-0.flex.items-center{
+        color: black;
+      }
+
       & h2,
       h1 {
         color: black !important;
