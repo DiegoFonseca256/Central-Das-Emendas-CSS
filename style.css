@@ -642,7 +642,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
       padding-top: 30px;
 
       & .text-content.text-sm.mt-0.flex.items-center{
-        color: black;
+        color: #f1f1f4;
       }
 
       & h2,
@@ -2724,7 +2724,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
     /* Titulo do post */
     & .font-medium.text-heading-xs.text-content {
-      color: #f1f1f4;
+      color: black;
       font-weight: 800;
     }
 
