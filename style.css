@@ -704,10 +704,6 @@ body[data-path^="/informes/post"][data-color-scheme-mode="light"] {
     }
 
 
-    & .font-medium.text-heading-xs.text-content {
-      color: #f1f1f4;
-      font-weight: 800;
-    }
 
   }
 
