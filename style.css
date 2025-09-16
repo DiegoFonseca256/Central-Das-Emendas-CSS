@@ -3185,7 +3185,7 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
 
     /* Cards */
     & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5 {
-      background-color: #6394BF !important;
+      background-color: #f1f1f4 !important;
       border-radius: 20px;
       padding: 20px;
       padding-bottom: 30px;
