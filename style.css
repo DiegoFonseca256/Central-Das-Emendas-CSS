@@ -1438,7 +1438,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
     }
 
     & h1{
-      color:#f1f1f4;
+      color: black;
       font-weight: 800;
     }
   }
@@ -1458,11 +1458,11 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
       /* Texto dos cards */
       & h2,
       h1 {
-        color: #f1f1f4;
+        color:  black;
         font-weight: 800;
       }
       & .text-content.text-sm.mt-0.flex.items-center {
-        color: #f1f1f4;
+        color: black;
       }
     }
   }
