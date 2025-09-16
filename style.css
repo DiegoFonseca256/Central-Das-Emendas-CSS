@@ -100,7 +100,7 @@ body[data-path^="/auth/forgot-password"] {
   /* Termo de Serviço e Privacidade */
   & .text-label-sm.font-medium.transition.duration-200.text-content {
     color: black;
-    
+
   }
 
   /* Texto Botão "Iniciar Sessão" */
@@ -130,7 +130,7 @@ body[data-path^="/auth/forgot-password"] {
     /* Botao de iniciar sessao */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.w-full.max-w-full.justify-center.truncate.relative.min-w-0.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused {
       background-color: #7E8DA6;
-      color: #F1F1F4;
+      color: black;
       width: auto;
       justify-self: center;
       align-self: center;
@@ -149,13 +149,13 @@ body[data-path^="/auth/forgot-password"] {
 
     /* Linha de Divisão do Card */
     & .w-full.border-t.border-line {
-      border-color: #f1f1f4;
+      border-color: black;
     }
 
     /* Botões de redes sociais */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.bg-action-neutral.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-line.w-full.justify-center {
       border-color: black;
-      color: #f1f1f4;
+      color: black;
       justify-self: center;
       align-self: center;
       display: flex;
