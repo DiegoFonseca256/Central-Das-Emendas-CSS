@@ -628,7 +628,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
   }
 
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
-    background-color: #6394BF !important;
+    background-color: #f1f1f4 !important;
   }
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
