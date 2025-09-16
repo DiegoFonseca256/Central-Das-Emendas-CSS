@@ -123,7 +123,7 @@ body[data-path^="/auth/forgot-password"] {
 
   /* Card de login */
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
-    background-color: #0C3954;
+    
 
     /* Botao de iniciar sessao */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.w-full.max-w-full.justify-center.truncate.relative.min-w-0.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused {
