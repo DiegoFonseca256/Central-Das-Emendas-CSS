@@ -97,6 +97,7 @@ body[data-path^="/auth/forgot-password"] {
     color: #f1f1f4;
   }
 
+  
   /* Termo de Serviço e Privacidade */
   & .text-label-sm.font-medium.transition.duration-200.text-content {
     color: #f1f1f4;
