@@ -1454,6 +1454,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
       padding: 20px;
       padding-bottom: 30px;
       padding-top: 30px;
+      color: black;
 
       /* Texto dos cards */
       & h2,
