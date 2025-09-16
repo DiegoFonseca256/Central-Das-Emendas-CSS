@@ -730,6 +730,10 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
 
   }
 
+  &p, h2{
+    color: #f1f1f4;
+  }
+
 }
 
 /*-----------------------------------------------------------------*/
