@@ -621,7 +621,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
   background-color: white;
 
   & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-transparent.max-w-\[15rem\].bg-surface.aria-pressed\:bg-surface.text-sm.text-start {
-    background-color: #034873 !important;
+    background-color: white !important;
     color: #f1f1f4;
     padding: -3px 10px -3px 10px;
     height: auto;
