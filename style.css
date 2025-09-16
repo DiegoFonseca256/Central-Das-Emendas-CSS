@@ -646,7 +646,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
       }
 
       & .text-content.text-sm.mt-0.flex.items-center {
-        color: #f1f1f4 !important;
+        
       }
 
     }
