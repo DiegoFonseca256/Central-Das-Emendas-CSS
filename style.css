@@ -713,24 +713,19 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #282828;
-    color: #f1f1f4 !important;
 
-    }
+
+
 
     & .font-medium.text-heading-xs.text-content {
-      color: #f1f1f4 !important;
+      color: #f1f1f4;
       font-weight: 800;
     }
 
   }
 
-  & p, h2, h1{
-    color: #f1f1f4;
-  }
+}
 
-  & .prose{
-    color:#f1f1f4;
-  }
 /*-----------------------------------------------------------------*/
 
 
@@ -1438,7 +1433,7 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
     }
 
     & h1{
-      color: black;
+      color:#f1f1f4;
       font-weight: 800;
     }
   }
@@ -1454,16 +1449,15 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
       padding: 20px;
       padding-bottom: 30px;
       padding-top: 30px;
-      color: black;
 
       /* Texto dos cards */
       & h2,
       h1 {
-        color:  black;
+        color: #f1f1f4;
         font-weight: 800;
       }
       & .text-content.text-sm.mt-0.flex.items-center {
-        color: black;
+        color: #f1f1f4;
       }
     }
   }
@@ -2693,16 +2687,15 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
       padding: 20px;
       padding-bottom: 30px;
       padding-top: 30px;
-      color: black;
 
       /* Texto dos cards */
       & h2,
       h1 {
-        color: black;
+        color: #f1f1f4;
         font-weight: 800;
       }
       & .text-content.text-sm.mt-0.flex.items-center {
-        color: black;
+        color: #f1f1f4;
       }
     }
   }
@@ -2726,7 +2719,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
     /* Titulo do post */
     & .font-medium.text-heading-xs.text-content {
-      color: black;
+      color: #f1f1f4;
       font-weight: 800;
     }
 
@@ -3188,18 +3181,17 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
       padding: 20px;
       padding-bottom: 30px;
       padding-top: 30px;
-      color: black;
 
       
 
       /* Texto dos cards */
       & h2,
       h1 {
-        color: black;
+        color: #f1f1f4;
         font-weight: 800;
       }
       & .text-content.text-sm.mt-0.flex.items-center {
-        color: black;
+        color: #f1f1f4;
       }
     }
   }
@@ -3223,7 +3215,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
 
     /* Titulo do post */
     & .font-medium.text-heading-xs.text-content {
-      color: black;
+      color: #f1f1f4;
       font-weight: 800;
     }
 
