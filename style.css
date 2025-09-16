@@ -631,7 +631,6 @@ body[data-path^="/informes"][data-color-scheme-mode="light"] {
   }
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
-    background-color: #f1f1f4;
 
     & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5 {
       background-color: #f1f1f4 !important;
