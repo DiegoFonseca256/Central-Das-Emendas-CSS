@@ -697,7 +697,7 @@ body[data-path^="/informes"][data-color-scheme-mode="dark"] {
 body[data-path^="/informes/post"][data-color-scheme-mode="light"] {
 
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
-    background-color: #6394BF;
+    background-color: #f1f1f4;
 
 
 
