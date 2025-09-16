@@ -2672,6 +2672,10 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
     background-color: #f1f1f4 !important;
 
+    & .cursor-pointer.flex.flex-wrap.items-center.gap-y-2.gap-x-5{
+      background-color: #f1f1f4 !important;
+    }
+
     & h1{
       color:#f1f1f4;
       font-weight: 800;
