@@ -715,10 +715,6 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
     background-color: #282828;
     color: #f1f1f4 !important;
 
-    & p,h1,h2{
-      color: #f1f1f4;
-    }
-
     }
 
     & .font-medium.text-heading-xs.text-content {
@@ -728,10 +724,13 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
 
   }
 
-  &p, h2{
+  &p, h2, h1{
     color: #f1f1f4;
   }
 
+  & .prose{
+    color:#f1f1f4;
+  }
 /*-----------------------------------------------------------------*/
 
 
