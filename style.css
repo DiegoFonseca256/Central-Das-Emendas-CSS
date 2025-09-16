@@ -724,7 +724,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
     }
 
     & .font-medium.text-heading-xs.text-content {
-      color: #f1f1f4;
+      color: #f1f1f4 !important;
       font-weight: 800;
     }
 
