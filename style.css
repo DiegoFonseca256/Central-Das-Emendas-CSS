@@ -3171,7 +3171,7 @@ body[data-path^="/informes"][data-color-scheme-mode="null"] {
 
   /* Card dos Posts*/
   & div[data-block-id="HglRxAoxPtCbd8zu96a1F"] {
-    background-color: #6394BF !important;
+    background-color: #f1f1f4 !important;
 
     & h1{
       color:#f1f1f4;
@@ -3216,7 +3216,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="null"] {
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     background-color: #f1f1f4 !important;
 
-    
+
     /* Titulo do post */
     & .font-medium.text-heading-xs.text-content {
       color: #f1f1f4;
