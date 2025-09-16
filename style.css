@@ -717,7 +717,7 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
     }
 
     & .prose{
-      color: #f1f1f4;
+      color: #f1f1f4;}
 
     & p{
       color: #f1f1f4;
@@ -733,8 +733,6 @@ body[data-path^="/informes/post"][data-color-scheme-mode="dark"] {
   &p, h2{
     color: #f1f1f4;
   }
-
-}
 
 /*-----------------------------------------------------------------*/
 
