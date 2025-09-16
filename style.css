@@ -92,7 +92,7 @@ body[data-path^="/auth/forgot-password"] {
   #password,
   #email,
   #name {
-    background-color: #0C3954;
+    
     border-color: #f1f1f4;
     color: #f1f1f4;
   }
@@ -124,16 +124,11 @@ body[data-path^="/auth/forgot-password"] {
   /* Card de login */
   & .border.border-card.flex.flex-col.text-content-subdued.transition.duration-200.justify-between.bg-surface.shadow-card.sm\:rounded-card {
     
-    
+
 
     /* Botao de iniciar sessao */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.w-full.max-w-full.justify-center.truncate.relative.min-w-0.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content-on-primary.bg-action-primary.hover\:bg-action-primary-hovered.active\:bg-action-primary-pressed.aria-pressed\:bg-action-primary-pressed.disabled\:bg-action-primary-disabled.disabled\:text-content-disabled.border-transparent.focus-visible\:ring-focused {
-      background-color: #7E8DA6;
-      color: #F1F1F4;
-      width: auto;
-      justify-self: center;
-      align-self: center;
-      display: flex;
+      
     }
 
     /* Botao de iniciar sessao(hover) */
@@ -143,17 +138,16 @@ body[data-path^="/auth/forgot-password"] {
 
     /* Div "Ou continue com" */
     & .px-6.bg-surface.text-content-subdued {
-      background-color: #0C3954;
+      
     }
 
     /* Linha de Divisão do Card */
     & .w-full.border-t.border-line {
-      border-color: #f1f1f4;
+      
     }
 
     /* Botões de redes sociais */
     & .touch-manipulation.inline-flex.gap-2.items-center.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.bg-action-neutral.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-line.w-full.justify-center {
-      background-color: #0C3954;
       border-color: #f1f1f4;
       color: #f1f1f4;
       justify-self: center;
