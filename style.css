@@ -92,7 +92,6 @@ body[data-path^="/auth/forgot-password"] {
   #password,
   #email,
   #name {
-    background-color: #f1f1f4;
     border-color: black;
     color: #150F15;
     
