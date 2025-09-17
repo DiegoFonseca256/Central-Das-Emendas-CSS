@@ -98,7 +98,7 @@ body[data-path^="/auth/forgot-password"] {
   }
 
   & .touch-manipulation.inline-block.rounded-button.px-4.py-\[9px\].min-h-\[40px\].leading-5.text-label-sm.justify-center.truncate.relative.min-w-0.max-w-full.font-medium.text-center.focus\:outline-none.focus-visible\:ring.transition.duration-200.border.disabled\:cursor-default.disabled\:pointer-events-none.disabled\:border-line-disabled.text-content.bg-action-neutral.hover\:bg-action-neutral-hovered.active\:bg-action-neutral-pressed.aria-pressed\:bg-action-neutral-pressed.disabled\:bg-action-neutral-disabled.disabled\:text-content-disabled.border-line.hidden.lg\:block.\!text-label-sm.text-content-on-topbar.bg-topbar.hover\:bg-topbar-subdued.shrink-0{
-    color:#150F15;
+    color:#150F15 !important;
   }
 
 
