@@ -838,6 +838,9 @@ body[data-path="/"][data-color-scheme-mode="light"] {
 
       & .flex.space-x-2.p-1{
         color: black;
+        & .w-full.inline-flex.justify-between.items-center.gap-x-1{ 
+          color: black;
+        }
       }
 
     }
