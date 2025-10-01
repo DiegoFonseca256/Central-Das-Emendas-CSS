@@ -421,10 +421,10 @@ body[data-path^="/noticias"] {
 
   }
 
+  /*cor botoes de filtro tema e data*/
   & .overflow-x-auto.scrollbar-hide.overscroll-none {
-
     & button[aria-haspopup="true"] {
-      color: #f1f1f4;
+      color: #150F15;
     }
 
   }
